@@ -1,0 +1,4 @@
+main 20 20
+secondary 16 16
+left 12 12
+right 12 12
