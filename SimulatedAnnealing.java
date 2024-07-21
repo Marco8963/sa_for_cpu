@@ -1,11 +1,4 @@
 public abstract class SimulatedAnnealing<T> {
-    public abstract class AnnealingSchedule {
-        abstract boolean hasNext();
-
-        abstract double nextTemperature();
-
-        abstract int nextIterations();
-    }
 
     abstract T neighbour(T state);
 
